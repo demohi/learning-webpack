@@ -1,0 +1,36 @@
+{
+  "name": "learning-webpack",
+  "version": "0.0.0",
+  "description": "learing webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demohi/learning-webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "mdemo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demohi/learning-webpack/issues"
+  },
+  "homepage": "https://github.com/demohi/learning-webpack",
+  "devDependencies": {
+    "css-loader": "^0.14.1",
+    "jsx-loader": "^0.13.2",
+    "node-libs-browser": "^0.5.2",
+    "node-sass": "^3.1.2",
+    "postcss-loader": "^0.4.3",
+    "postcss-local-scope": "0.0.5",
+    "sass-loader": "^1.0.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.9.9"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
