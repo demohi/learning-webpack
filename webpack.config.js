@@ -14,8 +14,8 @@ module.exports = {
     module: {
         loaders: [
             {test: /\.js$/, loader: 'jsx'},
-            { test: /\.css$/, loader: "style!css?module" },
-            {test: /\.scss$/, loader: "style!css?module!sass"}
+            {test: /\.css$/, loader: "style!css?module&localIdentName=[hash:base64:5]"},
+            {test: /\.scss$/, loader: "style!css?module&localIdentName=[hash:base64:5]!sass"}
         ]
     }
 };
