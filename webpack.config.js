@@ -14,9 +14,8 @@ module.exports = {
     module: {
         loaders: [
             {test: /\.js$/, loader: 'jsx'},
-            { test: /\.css$/, loader: "style!css?localIdentName=[name]__[local]___[hash:base64:5]!postcss" },
-            {test: /\.scss$/, loader: "style!css?localIdentName=[name]__[local]___[hash:base64:5]!postcss!sass"}
+            { test: /\.css$/, loader: "style!css?module" },
+            {test: /\.scss$/, loader: "style!css?module!sass"}
         ]
-    },
-    postcss: [ require('postcss-local-scope') ]
+    }
 };

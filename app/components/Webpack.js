@@ -10,13 +10,10 @@ var React = require('react');
 var css = require('./webpack.css');
 var scss = require('./webpack.scss');
 
-console.log(scss);
-console.log(css);
-
 var Webpack = React.createClass({
     render: function () {
         return (
-            <div>
+            <div className={scss.grey}>
                 Learing Webpack
                 <span className={css.red}>red</span>
                 <span className={css.green}>green</span>
